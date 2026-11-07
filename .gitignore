@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Исходные данные, которые не публикуются ---
+# Сырые котировки Мосбиржи (скачиваются заново скриптом fetch_market.py с ISS)
+market_cache/
+price_cache/
+# Исходные файлы отчётности МСФО и файл с данными Мосбиржи
+raw_msfo/
+Анализ_акций_Мосбиржи.xlsx
+imoex_constituents.csv
